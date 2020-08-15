@@ -1,4 +1,5 @@
-FROM openjdk:8-alpine
+#FROM openjdk:8-alpine
+FROM openjdk:16-ea-jdk-alpine3.12
 
 VOLUME ["/server"]
 WORKDIR /server
